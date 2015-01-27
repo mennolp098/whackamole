@@ -3,6 +3,7 @@ using System.Collections;
 
 public class MolesController : MonoBehaviour {
 	public GameObject[] allMoles = new GameObject[0];
+	public GameObject whackParticlePrefab;
 
 	private float[] _allCounters = new float[9];
 	private float[] _allMaxY = new float[9];
@@ -11,6 +12,7 @@ public class MolesController : MonoBehaviour {
 	private bool[] _isDown = new bool[9];
 
 	private bool _molesStarted;
+	private float _slowestSpawnSpeed = 5;
 	private float _totalMolesActive = 0;
 	private float _moleSpeed = 5;
 	void Start()
@@ -21,6 +23,7 @@ public class MolesController : MonoBehaviour {
 		{
 			_allMaxY[i] = allMoles[i].transform.position.y + 1.5f;
 			_allMinY[i] = allMoles[i].transform.position.y;
+			_isDown[i] = true;
 		}
 	}
 	void StartMoles () 
@@ -36,6 +39,7 @@ public class MolesController : MonoBehaviour {
 			_allActives[mole] = false;
 			Debug.Log("hit");
 			//TODO: score += 100;
+			Instantiate(whackParticlePrefab,allMoles[mole].transform.position,whackParticlePrefab.transform.rotation);
 		} else {
 			Debug.Log("lose health");
 			//TODO: lose score
@@ -70,18 +74,23 @@ public class MolesController : MonoBehaviour {
 				AddActiveMole();
 			}
 		}
-		Invoke ("AddNewMole",Random.Range(0.25f,1f));
+		Invoke ("AddNewMole",Random.Range(0.25f,_slowestSpawnSpeed));
 	}
 	void AddActiveMole()
 	{
-		int startMole = Random.Range(0,8);
-		while(_allActives[startMole] && !_isDown[startMole])
+		int startMole = Random.Range(0,9);
+		while(_allActives[startMole] || !_isDown[startMole])
 		{
-			startMole = Random.Range(0,8);
+			startMole = Random.Range(0,9);
 		}
 		_allActives[startMole] = true;
 		_isDown[startMole] = false;
 		_allCounters[startMole] = Random.Range(2,3);
+
+		if(_slowestSpawnSpeed > 1)
+		{
+			_slowestSpawnSpeed -= 0.1f;
+		}
 	}
 	IEnumerator CheckMolesActive()
 	{
