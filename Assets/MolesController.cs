@@ -37,21 +37,22 @@ public class MolesController : MonoBehaviour {
 		if(_allActives[mole])
 		{
 			_allActives[mole] = false;
-			GetComponent<ScoreController>().AddScore(1);
+
+			GetComponent<ScoreController>().AddScore(10);
 			Instantiate(whackParticlePrefab,allMoles[mole].transform.position,whackParticlePrefab.transform.rotation);
 		} else {
 			GetComponent<ScoreController>().AddScore(-1);
 			GetComponent<HealthController>().AddHealth(-1);
 		}
 	}
-	void Update()
+		void Update()
 	{
 		if(_molesStarted)
 		{
 			CheckMolesMovement();
 		}
 	}
-	void AddNewMole()
+		void AddNewMole()
 	{
 		if(_molesStarted)
 		{
@@ -74,7 +75,7 @@ public class MolesController : MonoBehaviour {
 		}
 		Invoke ("AddNewMole",Random.Range(0.25f,_slowestSpawnSpeed));
 	}
-	void AddActiveMole()
+		void AddActiveMole()
 	{
 		int startMole = Random.Range(0,9);
 		while(_allActives[startMole] || !_isDown[startMole])
@@ -106,19 +107,19 @@ public class MolesController : MonoBehaviour {
 				}
 			}
 			yield return new WaitForSeconds(1);
+			}
 		}
-	}
-	void CheckMolesMovement()
-	{
-		for (int i = allMoles.Length; i --> 0; )
+			void CheckMolesMovement()
 		{
-			if(_allActives[i])
+		for (int i = allMoles.Length; i --> 0; )
 			{
-				if(allMoles[i].transform.position.y < _allMaxY[i])
+			if(_allActives[i])
 				{
+				if(allMoles[i].transform.position.y < _allMaxY[i])
+					{
 					Vector3 movement = new Vector3(0,1,0);
 					allMoles[i].transform.position += movement * _moleSpeed * Time.deltaTime;
-				}
+					}
 			} else {
 				if(allMoles[i].transform.position.y > _allMinY[i])
 				{
