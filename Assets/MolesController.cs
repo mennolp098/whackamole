@@ -4,6 +4,7 @@ using System.Collections;
 public class MolesController : MonoBehaviour {
 	public GameObject[] allMoles = new GameObject[0];
 	public GameObject whackParticlePrefab;
+	public Sprite[] allSprites = new Sprite[0];
 
 	private float[] _allCounters = new float[9];
 	private float[] _allMaxY = new float[9];
@@ -12,9 +13,13 @@ public class MolesController : MonoBehaviour {
 	private bool[] _isDown = new bool[9];
 
 	private bool _molesStarted;
+	private float _minSpawnSpeed;
 	private float _slowestSpawnSpeed = 5;
 	private float _totalMolesActive = 0;
 	private float _moleSpeed = 5;
+	private float _maxMoles;
+	private int _minStayInSeconds;
+	private int _maxStayInSeconds;
 	void Start()
 	{
 		_molesStarted = false;
@@ -24,6 +29,28 @@ public class MolesController : MonoBehaviour {
 			_allMaxY[i] = allMoles[i].transform.position.y + 1.5f;
 			_allMinY[i] = allMoles[i].transform.position.y;
 			_isDown[i] = true;
+		}
+		float difficulty = PlayerPrefs.GetInt("difficulty");
+		if(difficulty == 0)
+		{
+			_minSpawnSpeed = 1f;
+			_moleSpeed = 5f;
+			_maxMoles = 3;
+			_minStayInSeconds = 4;
+			_maxStayInSeconds = 5;
+		} else if(difficulty == 1)
+		{
+			_minSpawnSpeed = 0.5f;
+			_moleSpeed = 7.5f;
+			_maxMoles = 4;
+			_minStayInSeconds = 3;
+			_maxStayInSeconds = 4;
+		} else {
+			_minSpawnSpeed = 0.1f;
+			_moleSpeed = 10f;
+			_maxMoles = 5;
+			_minStayInSeconds = 2;
+			_maxStayInSeconds = 3;
 		}
 	}
 	void StartMoles () 
@@ -38,6 +65,7 @@ public class MolesController : MonoBehaviour {
 		{
 			_allActives[mole] = false;
 			//TODO: score += 100;
+			//TODO: whack animation
 			Instantiate(whackParticlePrefab,allMoles[mole].transform.position,whackParticlePrefab.transform.rotation);
 		} else {
 			//TODO: lose score
@@ -61,13 +89,13 @@ public class MolesController : MonoBehaviour {
 				if(active)
 				{
 					_totalMolesActive++;
-					if(_totalMolesActive == 4)
+					if(_totalMolesActive == _maxMoles)
 					{
 						break;
 					}
 				}
 			}
-			if(_totalMolesActive < 3)
+			if(_totalMolesActive < _maxMoles-1)
 			{
 				AddActiveMole();
 			}
@@ -81,11 +109,13 @@ public class MolesController : MonoBehaviour {
 		{
 			startMole = Random.Range(0,9);
 		}
+		Sprite newSprite = allSprites[Random.Range(0,allSprites.Length)];
+		allMoles[startMole].GetComponent<SpriteRenderer>().sprite = newSprite;
 		_allActives[startMole] = true;
 		_isDown[startMole] = false;
-		_allCounters[startMole] = Random.Range(2,3);
+		_allCounters[startMole] = Random.Range(_minStayInSeconds,_maxStayInSeconds);
 
-		if(_slowestSpawnSpeed > 1)
+		if(_slowestSpawnSpeed > _minSpawnSpeed)
 		{
 			_slowestSpawnSpeed -= 0.1f;
 		}
