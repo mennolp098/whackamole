@@ -34,8 +34,10 @@ public class MolesController : MonoBehaviour {
 		if(_allActives[mole])
 		{
 			_allActives[mole] = false;
+			Debug.Log("hit");
 			//TODO: score += 100;
 		} else {
+			Debug.Log("lose health");
 			//TODO: lose score
 			//TODO: lose live
 		}
