@@ -37,11 +37,11 @@ public class MolesController : MonoBehaviour {
 		if(_allActives[mole])
 		{
 			_allActives[mole] = false;
-			//TODO: score += 100;
+			GetComponent<ScoreController>().AddScore(1);
 			Instantiate(whackParticlePrefab,allMoles[mole].transform.position,whackParticlePrefab.transform.rotation);
 		} else {
-			//TODO: lose score
-			//TODO: lose live
+			GetComponent<ScoreController>().AddScore(-1);
+			GetComponent<HealthController>().AddHealth(-1);
 		}
 	}
 	void Update()
