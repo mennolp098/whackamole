@@ -1,63 +1,63 @@
 fileFormatVersion: 2
-guid: d2e795466ef6ba64f8f8d3339c98b012
+guid: 948eec0aa4657624ea7d6d9e70a8edb5
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Sanic_WAM_0
-    21300002: Sanic_WAM_1
-    21300004: Sanic_WAM_2
-    21300006: Sanic_WAM_3
-    21300008: Sanic_WAM_4
-    21300010: Sanic_WAM_5
-    21300012: Sanic_WAM_6
-    21300014: Sanic_WAM_7
-    21300016: Sanic_WAM_8
-    21300018: Sanic_WAM_9
-    21300020: Sanic_WAM_10
-    21300022: Sanic_WAM_11
-    21300024: Sanic_WAM_12
-    21300026: Sanic_WAM_13
-    21300028: Sanic_WAM_14
-    21300030: Sanic_WAM_15
-    21300032: Sanic_WAM_16
-    21300034: Sanic_WAM_17
-    21300036: Sanic_WAM_18
-    21300038: Sanic_WAM_19
-    21300040: Sanic_WAM_20
-    21300042: Sanic_WAM_21
-    21300044: Sanic_WAM_22
-    21300046: Sanic_WAM_23
-    21300048: Sanic_WAM_24
-    21300050: Sanic_WAM_25
-    21300052: Sanic_WAM_26
-    21300054: Sanic_WAM_27
-    21300056: Sanic_WAM_28
-    21300058: Sanic_WAM_29
-    21300060: Sanic_WAM_30
-    21300062: Sanic_WAM_31
-    21300064: Sanic_WAM_32
-    21300066: Sanic_WAM_33
-    21300068: Sanic_WAM_34
-    21300070: Sanic_WAM_35
-    21300072: Sanic_WAM_36
-    21300074: Sanic_WAM_37
-    21300076: Sanic_WAM_38
-    21300078: Sanic_WAM_39
-    21300080: Sanic_WAM_40
-    21300082: Sanic_WAM_41
-    21300084: Sanic_WAM_42
-    21300086: Sanic_WAM_43
-    21300088: Sanic_WAM_44
-    21300090: Sanic_WAM_45
-    21300092: Sanic_WAM_46
-    21300094: Sanic_WAM_47
-    21300096: Sanic_WAM_48
-    21300098: Sanic_WAM_49
-    21300100: Sanic_WAM_50
-    21300102: Sanic_WAM_51
-    21300104: Sanic_WAM_52
-    21300106: Sanic_WAM_53
-    21300108: Sanic_WAM_54
-    21300110: Sanic_WAM_55
+    21300000: petey_phyrana_WAM_0
+    21300002: petey_phyrana_WAM_1
+    21300004: petey_phyrana_WAM_2
+    21300006: petey_phyrana_WAM_3
+    21300008: petey_phyrana_WAM_4
+    21300010: petey_phyrana_WAM_5
+    21300012: petey_phyrana_WAM_6
+    21300014: petey_phyrana_WAM_7
+    21300016: petey_phyrana_WAM_8
+    21300018: petey_phyrana_WAM_9
+    21300020: petey_phyrana_WAM_10
+    21300022: petey_phyrana_WAM_11
+    21300024: petey_phyrana_WAM_12
+    21300026: petey_phyrana_WAM_13
+    21300028: petey_phyrana_WAM_14
+    21300030: petey_phyrana_WAM_15
+    21300032: petey_phyrana_WAM_16
+    21300034: petey_phyrana_WAM_17
+    21300036: petey_phyrana_WAM_18
+    21300038: petey_phyrana_WAM_19
+    21300040: petey_phyrana_WAM_20
+    21300042: petey_phyrana_WAM_21
+    21300044: petey_phyrana_WAM_22
+    21300046: petey_phyrana_WAM_23
+    21300048: petey_phyrana_WAM_24
+    21300050: petey_phyrana_WAM_25
+    21300052: petey_phyrana_WAM_26
+    21300054: petey_phyrana_WAM_27
+    21300056: petey_phyrana_WAM_28
+    21300058: petey_phyrana_WAM_29
+    21300060: petey_phyrana_WAM_30
+    21300062: petey_phyrana_WAM_31
+    21300064: petey_phyrana_WAM_32
+    21300066: petey_phyrana_WAM_33
+    21300068: petey_phyrana_WAM_34
+    21300070: petey_phyrana_WAM_35
+    21300072: petey_phyrana_WAM_36
+    21300074: petey_phyrana_WAM_37
+    21300076: petey_phyrana_WAM_38
+    21300078: petey_phyrana_WAM_39
+    21300080: petey_phyrana_WAM_40
+    21300082: petey_phyrana_WAM_41
+    21300084: petey_phyrana_WAM_42
+    21300086: petey_phyrana_WAM_43
+    21300088: petey_phyrana_WAM_44
+    21300090: petey_phyrana_WAM_45
+    21300092: petey_phyrana_WAM_46
+    21300094: petey_phyrana_WAM_47
+    21300096: petey_phyrana_WAM_48
+    21300098: petey_phyrana_WAM_49
+    21300100: petey_phyrana_WAM_50
+    21300102: petey_phyrana_WAM_51
+    21300104: petey_phyrana_WAM_52
+    21300106: petey_phyrana_WAM_53
+    21300108: petey_phyrana_WAM_54
+    21300110: petey_phyrana_WAM_55
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -99,563 +99,563 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Sanic_WAM_0
+    - name: petey_phyrana_WAM_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 2235
-        width: 362
-        height: 365
+        x: 72
+        y: 5170
+        width: 446
+        height: 690
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_1
+    - name: petey_phyrana_WAM_1
       rect:
         serializedVersion: 2
-        x: 505
-        y: 2235
-        width: 366
-        height: 365
+        x: 1033
+        y: 5257
+        width: 11
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_2
+    - name: petey_phyrana_WAM_2
       rect:
         serializedVersion: 2
-        x: 988
-        y: 2235
-        width: 363
-        height: 365
+        x: 1181
+        y: 5170
+        width: 446
+        height: 690
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_3
+    - name: petey_phyrana_WAM_3
       rect:
         serializedVersion: 2
-        x: 1468
-        y: 2235
-        width: 367
-        height: 365
+        x: 1730
+        y: 5170
+        width: 447
+        height: 690
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_4
+    - name: petey_phyrana_WAM_4
       rect:
         serializedVersion: 2
-        x: 1952
-        y: 2235
-        width: 363
-        height: 365
+        x: 2692
+        y: 5257
+        width: 11
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_5
+    - name: petey_phyrana_WAM_5
       rect:
         serializedVersion: 2
-        x: 2432
-        y: 2235
-        width: 367
-        height: 365
+        x: 2840
+        y: 5170
+        width: 446
+        height: 690
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_6
+    - name: petey_phyrana_WAM_6
       rect:
         serializedVersion: 2
-        x: 2916
-        y: 2235
-        width: 363
-        height: 365
+        x: 3389
+        y: 5170
+        width: 447
+        height: 690
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_7
+    - name: petey_phyrana_WAM_7
       rect:
         serializedVersion: 2
-        x: 3399
-        y: 2235
-        width: 363
-        height: 365
+        x: 72
+        y: 4438
+        width: 446
+        height: 692
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_8
+    - name: petey_phyrana_WAM_8
       rect:
         serializedVersion: 2
-        x: 25
-        y: 1869
-        width: 362
-        height: 366
+        x: 626
+        y: 4438
+        width: 447
+        height: 692
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_9
+    - name: petey_phyrana_WAM_9
       rect:
         serializedVersion: 2
-        x: 505
-        y: 1869
-        width: 366
-        height: 366
+        x: 1181
+        y: 4438
+        width: 446
+        height: 692
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_10
+    - name: petey_phyrana_WAM_10
       rect:
         serializedVersion: 2
-        x: 988
-        y: 1869
-        width: 363
-        height: 366
+        x: 1730
+        y: 4438
+        width: 447
+        height: 692
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_11
+    - name: petey_phyrana_WAM_11
       rect:
         serializedVersion: 2
-        x: 1468
-        y: 1869
-        width: 367
-        height: 366
+        x: 2285
+        y: 4438
+        width: 447
+        height: 692
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_12
+    - name: petey_phyrana_WAM_12
       rect:
         serializedVersion: 2
-        x: 1952
-        y: 1869
-        width: 363
-        height: 366
+        x: 2840
+        y: 4438
+        width: 446
+        height: 692
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_13
+    - name: petey_phyrana_WAM_13
       rect:
         serializedVersion: 2
-        x: 2432
-        y: 1869
-        width: 367
-        height: 366
+        x: 3389
+        y: 4438
+        width: 447
+        height: 692
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_14
+    - name: petey_phyrana_WAM_14
       rect:
         serializedVersion: 2
-        x: 2916
-        y: 1869
-        width: 363
-        height: 366
+        x: 72
+        y: 3705
+        width: 446
+        height: 693
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_15
+    - name: petey_phyrana_WAM_15
       rect:
         serializedVersion: 2
-        x: 3399
-        y: 1869
-        width: 363
-        height: 366
+        x: 626
+        y: 3705
+        width: 447
+        height: 693
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_16
+    - name: petey_phyrana_WAM_16
       rect:
         serializedVersion: 2
-        x: 25
-        y: 1502
-        width: 362
-        height: 367
+        x: 1181
+        y: 3705
+        width: 446
+        height: 693
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_17
+    - name: petey_phyrana_WAM_17
       rect:
         serializedVersion: 2
-        x: 505
-        y: 1502
-        width: 366
-        height: 367
+        x: 1730
+        y: 3705
+        width: 447
+        height: 693
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_18
+    - name: petey_phyrana_WAM_18
       rect:
         serializedVersion: 2
-        x: 988
-        y: 1502
-        width: 363
-        height: 367
+        x: 2285
+        y: 3705
+        width: 447
+        height: 693
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_19
+    - name: petey_phyrana_WAM_19
       rect:
         serializedVersion: 2
-        x: 1468
-        y: 1502
-        width: 367
-        height: 367
+        x: 2840
+        y: 3705
+        width: 446
+        height: 693
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_20
+    - name: petey_phyrana_WAM_20
       rect:
         serializedVersion: 2
-        x: 1929
-        y: 1502
-        width: 477
-        height: 325
+        x: 3381
+        y: 3705
+        width: 489
+        height: 573
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_21
+    - name: petey_phyrana_WAM_21
       rect:
         serializedVersion: 2
-        x: 2409
-        y: 1502
-        width: 480
-        height: 323
+        x: 60
+        y: 2973
+        width: 492
+        height: 572
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_22
+    - name: petey_phyrana_WAM_22
       rect:
         serializedVersion: 2
-        x: 2893
-        y: 1502
-        width: 480
-        height: 325
+        x: 867
+        y: 3459
+        width: 40
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_23
+    - name: petey_phyrana_WAM_23
       rect:
         serializedVersion: 2
-        x: 3373
-        y: 1502
-        width: 480
-        height: 324
+        x: 1170
+        y: 2973
+        width: 486
+        height: 526
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_24
+    - name: petey_phyrana_WAM_24
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 2973
+        width: 486
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: petey_phyrana_WAM_25
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 2967
+        width: 549
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: petey_phyrana_WAM_26
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 2967
+        width: 549
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: petey_phyrana_WAM_27
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 2967
+        width: 549
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: petey_phyrana_WAM_28
       rect:
         serializedVersion: 2
         x: 0
-        y: 1136
-        width: 478
-        height: 321
+        y: 2235
+        width: 546
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_25
+    - name: petey_phyrana_WAM_29
       rect:
         serializedVersion: 2
-        x: 482
-        y: 1136
-        width: 480
-        height: 257
+        x: 552
+        y: 2235
+        width: 549
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_26
+    - name: petey_phyrana_WAM_30
       rect:
         serializedVersion: 2
-        x: 966
-        y: 1139
-        width: 464
-        height: 238
+        x: 1101
+        y: 2235
+        width: 554
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_27
+    - name: petey_phyrana_WAM_31
       rect:
         serializedVersion: 2
-        x: 1449
-        y: 1139
-        width: 461
-        height: 235
+        x: 1656
+        y: 2235
+        width: 549
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_28
+    - name: petey_phyrana_WAM_32
       rect:
         serializedVersion: 2
-        x: 1930
-        y: 1139
-        width: 464
-        height: 238
+        x: 2211
+        y: 2235
+        width: 549
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_29
+    - name: petey_phyrana_WAM_33
       rect:
         serializedVersion: 2
-        x: 2413
-        y: 1139
-        width: 461
-        height: 235
+        x: 2760
+        y: 2235
+        width: 554
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_30
+    - name: petey_phyrana_WAM_34
       rect:
         serializedVersion: 2
-        x: 2895
-        y: 1139
-        width: 463
-        height: 238
+        x: 3315
+        y: 2235
+        width: 549
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_31
+    - name: petey_phyrana_WAM_35
       rect:
         serializedVersion: 2
-        x: 3377
-        y: 1139
-        width: 461
-        height: 235
+        x: 0
+        y: 1502
+        width: 546
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_32
+    - name: petey_phyrana_WAM_36
       rect:
         serializedVersion: 2
-        x: 2
-        y: 773
-        width: 465
-        height: 238
+        x: 552
+        y: 1502
+        width: 549
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_33
+    - name: petey_phyrana_WAM_37
       rect:
         serializedVersion: 2
-        x: 486
-        y: 773
-        width: 461
-        height: 234
+        x: 1107
+        y: 1502
+        width: 549
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_34
+    - name: petey_phyrana_WAM_38
       rect:
         serializedVersion: 2
-        x: 966
-        y: 773
-        width: 464
-        height: 238
+        x: 1656
+        y: 1502
+        width: 549
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_35
+    - name: petey_phyrana_WAM_39
       rect:
         serializedVersion: 2
-        x: 1449
-        y: 773
-        width: 461
-        height: 234
+        x: 2211
+        y: 1502
+        width: 549
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_36
+    - name: petey_phyrana_WAM_40
       rect:
         serializedVersion: 2
-        x: 1930
-        y: 773
-        width: 464
-        height: 238
+        x: 2766
+        y: 1502
+        width: 549
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_37
+    - name: petey_phyrana_WAM_41
       rect:
         serializedVersion: 2
-        x: 2413
-        y: 773
-        width: 461
-        height: 234
+        x: 3315
+        y: 1502
+        width: 549
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_38
+    - name: petey_phyrana_WAM_42
       rect:
         serializedVersion: 2
-        x: 2894
-        y: 773
-        width: 464
-        height: 238
+        x: 0
+        y: 770
+        width: 546
+        height: 451
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_39
+    - name: petey_phyrana_WAM_43
       rect:
         serializedVersion: 2
-        x: 3377
-        y: 773
-        width: 461
-        height: 234
+        x: 552
+        y: 770
+        width: 549
+        height: 446
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_40
+    - name: petey_phyrana_WAM_44
       rect:
         serializedVersion: 2
-        x: 2
-        y: 406
-        width: 465
-        height: 238
+        x: 1107
+        y: 770
+        width: 549
+        height: 451
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_41
+    - name: petey_phyrana_WAM_45
       rect:
         serializedVersion: 2
-        x: 486
-        y: 406
-        width: 461
-        height: 235
+        x: 1656
+        y: 770
+        width: 549
+        height: 451
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_42
+    - name: petey_phyrana_WAM_46
       rect:
         serializedVersion: 2
-        x: 966
-        y: 406
-        width: 464
-        height: 238
+        x: 2211
+        y: 770
+        width: 549
+        height: 446
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_43
+    - name: petey_phyrana_WAM_47
       rect:
         serializedVersion: 2
-        x: 1449
-        y: 406
-        width: 461
-        height: 235
+        x: 2766
+        y: 770
+        width: 549
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_44
+    - name: petey_phyrana_WAM_48
       rect:
         serializedVersion: 2
-        x: 1930
-        y: 406
-        width: 464
-        height: 238
+        x: 3315
+        y: 770
+        width: 549
+        height: 451
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_45
+    - name: petey_phyrana_WAM_49
       rect:
         serializedVersion: 2
-        x: 2413
-        y: 406
-        width: 461
-        height: 235
+        x: 0
+        y: 37
+        width: 546
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_46
+    - name: petey_phyrana_WAM_50
       rect:
         serializedVersion: 2
-        x: 2893
-        y: 406
-        width: 465
-        height: 238
+        x: 552
+        y: 37
+        width: 549
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_47
+    - name: petey_phyrana_WAM_51
       rect:
         serializedVersion: 2
-        x: 3377
-        y: 406
-        width: 461
-        height: 235
+        x: 1107
+        y: 37
+        width: 549
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_48
+    - name: petey_phyrana_WAM_52
       rect:
         serializedVersion: 2
-        x: 2
-        y: 40
-        width: 465
-        height: 238
+        x: 1657
+        y: 37
+        width: 548
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_49
+    - name: petey_phyrana_WAM_53
       rect:
         serializedVersion: 2
-        x: 486
-        y: 40
-        width: 461
-        height: 234
+        x: 2211
+        y: 37
+        width: 549
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_50
+    - name: petey_phyrana_WAM_54
       rect:
         serializedVersion: 2
-        x: 966
-        y: 40
-        width: 464
-        height: 238
+        x: 2766
+        y: 37
+        width: 549
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_51
+    - name: petey_phyrana_WAM_55
       rect:
         serializedVersion: 2
-        x: 1449
-        y: 40
-        width: 461
-        height: 234
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_52
-      rect:
-        serializedVersion: 2
-        x: 1929
-        y: 40
-        width: 465
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_53
-      rect:
-        serializedVersion: 2
-        x: 2413
-        y: 40
-        width: 461
-        height: 234
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_54
-      rect:
-        serializedVersion: 2
-        x: 2893
-        y: 40
-        width: 465
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sanic_WAM_55
-      rect:
-        serializedVersion: 2
-        x: 3377
-        y: 40
-        width: 461
-        height: 234
+        x: 3315
+        y: 37
+        width: 549
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

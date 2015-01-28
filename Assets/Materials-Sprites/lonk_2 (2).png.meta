@@ -1,0 +1,652 @@
+fileFormatVersion: 2
+guid: c37701dfcc5aaa847a1a83d67fa9977b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: lonk_2 (2)_0
+    21300002: lonk_2 (2)_1
+    21300004: lonk_2 (2)_2
+    21300006: lonk_2 (2)_3
+    21300008: lonk_2 (2)_4
+    21300010: lonk_2 (2)_5
+    21300012: lonk_2 (2)_6
+    21300014: lonk_2 (2)_7
+    21300016: lonk_2 (2)_8
+    21300018: lonk_2 (2)_9
+    21300020: lonk_2 (2)_10
+    21300022: lonk_2 (2)_11
+    21300024: lonk_2 (2)_12
+    21300026: lonk_2 (2)_13
+    21300028: lonk_2 (2)_14
+    21300030: lonk_2 (2)_15
+    21300032: lonk_2 (2)_16
+    21300034: lonk_2 (2)_17
+    21300036: lonk_2 (2)_18
+    21300038: lonk_2 (2)_19
+    21300040: lonk_2 (2)_20
+    21300042: lonk_2 (2)_21
+    21300044: lonk_2 (2)_22
+    21300046: lonk_2 (2)_23
+    21300048: lonk_2 (2)_24
+    21300050: lonk_2 (2)_25
+    21300052: lonk_2 (2)_26
+    21300054: lonk_2 (2)_27
+    21300056: lonk_2 (2)_28
+    21300058: lonk_2 (2)_29
+    21300060: lonk_2 (2)_30
+    21300062: lonk_2 (2)_31
+    21300064: lonk_2 (2)_32
+    21300066: lonk_2 (2)_33
+    21300068: lonk_2 (2)_34
+    21300070: lonk_2 (2)_35
+    21300072: lonk_2 (2)_36
+    21300074: lonk_2 (2)_37
+    21300076: lonk_2 (2)_38
+    21300078: lonk_2 (2)_39
+    21300080: lonk_2 (2)_40
+    21300082: lonk_2 (2)_41
+    21300084: lonk_2 (2)_42
+    21300086: lonk_2 (2)_43
+    21300088: lonk_2 (2)_44
+    21300090: lonk_2 (2)_45
+    21300092: lonk_2 (2)_46
+    21300094: lonk_2 (2)_47
+    21300096: lonk_2 (2)_48
+    21300098: lonk_2 (2)_49
+    21300100: lonk_2 (2)_50
+    21300102: lonk_2 (2)_51
+    21300104: lonk_2 (2)_52
+    21300106: lonk_2 (2)_53
+    21300108: lonk_2 (2)_54
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: lonk_2 (2)_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2117
+        width: 499
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_1
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 2117
+        width: 500
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_2
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 2117
+        width: 499
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_3
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2117
+        width: 500
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_4
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 2117
+        width: 499
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_5
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 2117
+        width: 498
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_6
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 2117
+        width: 500
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_7
+      rect:
+        serializedVersion: 2
+        x: 3530
+        y: 2117
+        width: 499
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1666
+        width: 499
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_9
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1666
+        width: 500
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_10
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1666
+        width: 499
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_11
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1666
+        width: 500
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_12
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 1666
+        width: 497
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_13
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 1666
+        width: 499
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_14
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 1666
+        width: 500
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_15
+      rect:
+        serializedVersion: 2
+        x: 3530
+        y: 1666
+        width: 499
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1218
+        width: 499
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_17
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1218
+        width: 500
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_18
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1218
+        width: 499
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_19
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1218
+        width: 500
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_20
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1270
+        width: 618
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_21
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 1270
+        width: 618
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_22
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1270
+        width: 619
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 881
+        width: 618
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_24
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1000
+        width: 559
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_25
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 996
+        width: 555
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_26
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 1000
+        width: 559
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_27
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 996
+        width: 555
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_28
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 1000
+        width: 559
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_29
+      rect:
+        serializedVersion: 2
+        x: 3448
+        y: 996
+        width: 557
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 664
+        width: 559
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_31
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 664
+        width: 559
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_32
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 660
+        width: 559
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_33
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 664
+        width: 562
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_34
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 660
+        width: 559
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_35
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 664
+        width: 563
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_36
+      rect:
+        serializedVersion: 2
+        x: 3391
+        y: 660
+        width: 559
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_37
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 442
+        width: 559
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_38
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 442
+        width: 555
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_39
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 442
+        width: 559
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_40
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 442
+        width: 556
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_41
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 442
+        width: 559
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_42
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 442
+        width: 559
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_43
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 442
+        width: 563
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 220
+        width: 555
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_45
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 224
+        width: 559
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_46
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 220
+        width: 555
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_47
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 224
+        width: 558
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_48
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 220
+        width: 555
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_49
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 224
+        width: 559
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_50
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 220
+        width: 559
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 559
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_52
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 2
+        width: 555
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_53
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 2
+        width: 559
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lonk_2 (2)_54
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 2
+        width: 556
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MenuController : MonoBehaviour {
+	public class MenuController : MonoBehaviour {
 	public GameObject menuCanvas;
 	public GameObject creditsCanvas;
 	public GameObject difficultyCanvas;

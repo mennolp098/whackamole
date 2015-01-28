@@ -151,8 +151,8 @@ public class MolesController : MonoBehaviour {
 		{
 			startMole = Random.Range(0,9);
 		}
-		float randomAnim = Random.Range(0,3);
-		allMoles[startMole].GetComponent<Animator>().SetTrigger(""+randomAnim);
+		float randomAnim = Random.Range(0,6); //<------------- lengte van animaties
+		allMoles[startMole].GetComponent<Animator>().SetTrigger(""+randomAnim);  
 
 		_allActives[startMole] = true;
 		_isDown[startMole] = false;

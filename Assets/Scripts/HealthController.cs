@@ -8,7 +8,7 @@ public class HealthController : MonoBehaviour {
 	public int health;
 	public Text healthText;
 	
-	private HealthController healthController;
+	//private HealthController healthController;
 	
 	void Start ()
 	{
@@ -31,6 +31,5 @@ public class HealthController : MonoBehaviour {
 	{
 		healthText.text = "Health: " + health;
 	}
-
-
+	
 }
