@@ -38,7 +38,10 @@ public class MolesController : MonoBehaviour {
 		{
 			_allActives[mole] = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 			GetComponent<ScoreController>().AddScore(10);
 =======
 			//TODO: score += 100;
