@@ -32,4 +32,6 @@ public class HealthController : MonoBehaviour {
 	{
 		healthBar.sprite = allHealthBars[health];
 	}
+
+
 }
