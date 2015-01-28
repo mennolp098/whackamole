@@ -6,13 +6,14 @@ public class HealthController : MonoBehaviour {
 	
 	public int healthValue;
 	public int health;
-	public Text healthText;
+	public Image healthBar;
+	public Sprite[] allHealthBars = new Sprite[0];
 	
 	private HealthController healthController;
 	
 	void Start ()
 	{
-		health = 10;
+		health = 3;
 		UpdateHealth ();
 	}
 	
@@ -21,10 +22,14 @@ public class HealthController : MonoBehaviour {
 	{
 		health += newHealthValue;
 		UpdateHealth ();
+		if(health <= 0)
+		{
+			Application.LoadLevel(0);
+		}
 	}
 	
 	void UpdateHealth ()
 	{
-		healthText.text = "Health: " + health;
+		healthBar.sprite = allHealthBars[health];
 	}
 }

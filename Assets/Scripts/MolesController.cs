@@ -5,15 +5,15 @@ using UnityEngine.UI;
 public class MolesController : MonoBehaviour {
 	public GameObject[] allMoles = new GameObject[0];
 	public GameObject whackParticlePrefab;
-	public AnimationClip[] allAnimations = new AnimationClip[0];
 	public GameObject[] fireWorks = new GameObject[0];
 	public Text comboText;
-
+	
 	private float[] _allCounters = new float[9];
 	private float[] _allMaxY = new float[9];
 	private float[] _allMinY = new float[9];
 	private bool[] _allActives = new bool[9];
 	private bool[] _isDown = new bool[9];
+	private bool[] _justWhacked = new bool[9];
 	
 	private bool _molesStarted;
 	private bool _isComboStarted;
@@ -22,25 +22,33 @@ public class MolesController : MonoBehaviour {
 	private float _slowestSpawnSpeed = 5;
 	private float _totalMolesActive = 0;
 	private float _moleSpeed = 5;
+	private float _moleDownSpeed = 5;
 	private float _maxMoles;
 	private int _minStayInSeconds;
 	private int _maxStayInSeconds;
 	void Start()
 	{
+		ClearComboText();
 		_molesStarted = false;
 		Invoke ("StartMoles", 3f);
 		for (int i = allMoles.Length; i --> 0;)
 		{
 			_allMaxY[i] = allMoles[i].transform.position.y + 1.5f;
+			if(i <= 2)
+			{
+				_allMaxY[i] -= 0.5f;
+			}
 			_allMinY[i] = allMoles[i].transform.position.y;
 			_isDown[i] = true;
 			allMoles[i].particleSystem.enableEmission = false;
+			allMoles[i].SetActive(false);
 		}
 		float difficulty = PlayerPrefs.GetInt("difficulty");
 		if(difficulty == 0)
 		{
 			_minSpawnSpeed = 1f;
 			_moleSpeed = 5f;
+			_moleDownSpeed = 2.5f;
 			_maxMoles = 3;
 			_minStayInSeconds = 4;
 			_maxStayInSeconds = 5;
@@ -48,12 +56,14 @@ public class MolesController : MonoBehaviour {
 		{
 			_minSpawnSpeed = 0.5f;
 			_moleSpeed = 7.5f;
+			_moleDownSpeed = 2.5f;
 			_maxMoles = 4;
 			_minStayInSeconds = 3;
 			_maxStayInSeconds = 4;
 		} else {
 			_minSpawnSpeed = 0.1f;
 			_moleSpeed = 10f;
+			_moleDownSpeed = 2.5f;
 			_maxMoles = 5;
 			_minStayInSeconds = 2;
 			_maxStayInSeconds = 3;
@@ -84,13 +94,26 @@ public class MolesController : MonoBehaviour {
 		{
 			allMoles[mole].GetComponent<Animator>().SetTrigger("whack");
 			_allActives[mole] = false;
-			GetComponent<ScoreController>().AddScore(100);
+			GetComponent<ScoreController>().AddScore(100 + (int)(_comboCounter*10));
 			Instantiate(whackParticlePrefab,allMoles[mole].transform.position,whackParticlePrefab.transform.rotation);
+			_justWhacked[mole] = true;
 			if(_isComboStarted)
 			{
 				_comboCounter++;
-				comboText.text = "" + _comboCounter;
-				comboText.transform.position = allMoles[mole].transform.position;
+				string comboString = _comboCounter.ToString();
+				string newString = "";
+				for(int i = 0; i < comboString.Length;i++)
+				{
+					if(comboString[i] == '0')
+					{
+						newString += 'o';
+					}
+					else
+					{
+						newString += comboString[i];
+					}
+				}
+				comboText.text = "Combo: " + newString;
 				int random = Random.Range(0,fireWorks.Length);
 				Instantiate(fireWorks[random],fireWorks[random].transform.position,fireWorks[random].transform.rotation);
 				Invoke ("ClearComboText", 2f);
@@ -117,8 +140,8 @@ public class MolesController : MonoBehaviour {
 		}
 		if(comboText.text != "")
 		{
-			Vector3 movement = new Vector3(1,1,0);
-			comboText.transform.position += movement * Time.deltaTime;
+			Color newColor = new Color(Random.Range(0f,1f),Random.Range(0f,1f),Random.Range(0f,1f));
+			comboText.color = newColor;
 		}
 	}
 	void AddNewMole()
@@ -152,6 +175,7 @@ public class MolesController : MonoBehaviour {
 			startMole = Random.Range(0,9);
 		}
 		float randomAnim = Random.Range(0,3);
+		allMoles[startMole].gameObject.SetActive(true);
 		allMoles[startMole].GetComponent<Animator>().SetTrigger(""+randomAnim);
 
 		_allActives[startMole] = true;
@@ -207,12 +231,19 @@ public class MolesController : MonoBehaviour {
 				if(allMoles[i].transform.position.y > _allMinY[i])
 				{
 					Vector3 movement = new Vector3(0,-1,0);
-					allMoles[i].transform.position += movement * _moleSpeed * Time.deltaTime;
+					allMoles[i].transform.position += movement * _moleDownSpeed * Time.deltaTime;
 				} else if(!_isDown[i]){
 					_isDown[i] = true;
-					_isComboStarted = false;
-					_comboCounter = 0;
-					GetComponent<ScoreController>().AddScore(-50);
+					allMoles[i].gameObject.SetActive(false);
+					if(!_justWhacked[i])
+					{
+						_isComboStarted = false;
+						_comboCounter = 0;
+						GetComponent<HealthController>().AddHealth(-1);
+						GetComponent<ScoreController>().AddScore(-50);
+					} else {
+						_justWhacked[i] = false;
+					}
 				}
 			}
 		}
