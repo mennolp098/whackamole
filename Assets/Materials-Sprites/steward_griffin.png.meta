@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: 6320cb92b1a64bb47bbab85542a1f906
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: steward_griffin_0
+    21300002: steward_griffin_1
+    21300004: steward_griffin_2
+    21300006: steward_griffin_3
+    21300008: steward_griffin_4
+    21300010: steward_griffin_5
+    21300012: steward_griffin_6
+    21300014: steward_griffin_7
+    21300016: steward_griffin_8
+    21300018: steward_griffin_9
+    21300020: steward_griffin_10
+    21300022: steward_griffin_11
+    21300024: steward_griffin_12
+    21300026: steward_griffin_13
+    21300028: steward_griffin_14
+    21300030: steward_griffin_15
+    21300032: steward_griffin_16
+    21300034: steward_griffin_17
+    21300036: steward_griffin_18
+    21300038: steward_griffin_19
+    21300040: steward_griffin_20
+    21300042: steward_griffin_21
+    21300044: steward_griffin_22
+    21300046: steward_griffin_23
+    21300048: steward_griffin_24
+    21300050: steward_griffin_25
+    21300052: steward_griffin_26
+    21300054: steward_griffin_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: steward_griffin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2714
+        width: 308
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2714
+        width: 310
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_2
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 2714
+        width: 310
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2415
+        width: 308
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2415
+        width: 310
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_5
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 2415
+        width: 310
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2114
+        width: 308
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2114
+        width: 310
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_8
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 2114
+        width: 310
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1815
+        width: 308
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1818
+        width: 307
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_11
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1811
+        width: 307
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1511
+        width: 305
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1511
+        width: 307
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_14
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1511
+        width: 307
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1210
+        width: 305
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_16
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1210
+        width: 304
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_17
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1210
+        width: 307
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 911
+        width: 305
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 911
+        width: 307
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_20
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 911
+        width: 307
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 610
+        width: 305
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_22
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 610
+        width: 304
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_23
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 610
+        width: 307
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 305
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 312
+        width: 307
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_26
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 312
+        width: 307
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: steward_griffin_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 305
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

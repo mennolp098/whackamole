@@ -4,16 +4,17 @@ using UnityEngine.UI;
 
 public class MolesController : MonoBehaviour {
 	public GameObject[] allMoles = new GameObject[0];
-	public GameObject whackParticlePrefab;
-	public AnimationClip[] allAnimations = new AnimationClip[0];
 	public GameObject[] fireWorks = new GameObject[0];
+	public Animator[] _allAnimators = new Animator[9];
 	public Text comboText;
+	public GameObject whackParticlePrefab;
 
 	private float[] _allCounters = new float[9];
 	private float[] _allMaxY = new float[9];
 	private float[] _allMinY = new float[9];
 	private bool[] _allActives = new bool[9];
 	private bool[] _isDown = new bool[9];
+	private bool[] _justWhacked = new bool[9];
 	
 	private bool _molesStarted;
 	private bool _isComboStarted;
@@ -27,6 +28,7 @@ public class MolesController : MonoBehaviour {
 	private int _maxStayInSeconds;
 	void Start()
 	{
+		ClearComboText();
 		_molesStarted = false;
 		Invoke ("StartMoles", 3f);
 		for (int i = allMoles.Length; i --> 0;)
@@ -35,6 +37,7 @@ public class MolesController : MonoBehaviour {
 			_allMinY[i] = allMoles[i].transform.position.y;
 			_isDown[i] = true;
 			allMoles[i].particleSystem.enableEmission = false;
+			allMoles[i].gameObject.SetActive(false);
 		}
 		float difficulty = PlayerPrefs.GetInt("difficulty");
 		if(difficulty == 0)
@@ -82,7 +85,7 @@ public class MolesController : MonoBehaviour {
 	{
 		if(_allActives[mole])
 		{
-			allMoles[mole].GetComponent<Animator>().SetTrigger("whack");
+			_allAnimators[mole].SetTrigger("whack");
 			_allActives[mole] = false;
 			GetComponent<ScoreController>().AddScore(100);
 			Instantiate(whackParticlePrefab,allMoles[mole].transform.position,whackParticlePrefab.transform.rotation);
@@ -94,6 +97,7 @@ public class MolesController : MonoBehaviour {
 				int random = Random.Range(0,fireWorks.Length);
 				Instantiate(fireWorks[random],fireWorks[random].transform.position,fireWorks[random].transform.rotation);
 				Invoke ("ClearComboText", 2f);
+				_justWhacked[mole] = true;
 			}
 		} else {
 			GetComponent<ScoreController>().AddScore(-50);
@@ -117,8 +121,8 @@ public class MolesController : MonoBehaviour {
 		}
 		if(comboText.text != "")
 		{
-			Vector3 movement = new Vector3(1,1,0);
-			comboText.transform.position += movement * Time.deltaTime;
+			Color newColor = new Color(Random.Range(0f,1f),Random.Range(0f,1f),Random.Range(0f,1f));
+			comboText.color = newColor;
 		}
 	}
 	void AddNewMole()
@@ -151,8 +155,8 @@ public class MolesController : MonoBehaviour {
 		{
 			startMole = Random.Range(0,9);
 		}
-		float randomAnim = Random.Range(0,6); //<------------- lengte van animaties
-		allMoles[startMole].GetComponent<Animator>().SetTrigger(""+randomAnim);  
+		float randomAnim = Random.Range(0,4);
+		_allAnimators[startMole].SetTrigger(""+randomAnim); 
 
 		_allActives[startMole] = true;
 		_isDown[startMole] = false;
@@ -210,9 +214,16 @@ public class MolesController : MonoBehaviour {
 					allMoles[i].transform.position += movement * _moleSpeed * Time.deltaTime;
 				} else if(!_isDown[i]){
 					_isDown[i] = true;
-					_isComboStarted = false;
-					_comboCounter = 0;
-					GetComponent<ScoreController>().AddScore(-50);
+					if(!_justWhacked[i])
+					{
+						_isComboStarted = false;
+						_comboCounter = 0;
+						GetComponent<ScoreController>().AddScore(-50);
+						GetComponent<HealthController>().AddHealth(-1);
+						_justWhacked[i] = false;
+					} else {
+						_justWhacked[i] = false;
+					}
 				}
 			}
 		}

@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: 2143801ee18c15c4ab71ada63252a2ba
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: winnie_pooh_0
+    21300002: winnie_pooh_1
+    21300004: winnie_pooh_2
+    21300006: winnie_pooh_3
+    21300008: winnie_pooh_4
+    21300010: winnie_pooh_5
+    21300012: winnie_pooh_6
+    21300014: winnie_pooh_7
+    21300016: winnie_pooh_8
+    21300018: winnie_pooh_9
+    21300020: winnie_pooh_10
+    21300022: winnie_pooh_11
+    21300024: winnie_pooh_12
+    21300026: winnie_pooh_13
+    21300028: winnie_pooh_14
+    21300030: winnie_pooh_15
+    21300032: winnie_pooh_16
+    21300034: winnie_pooh_17
+    21300036: winnie_pooh_18
+    21300038: winnie_pooh_19
+    21300040: winnie_pooh_20
+    21300042: winnie_pooh_21
+    21300044: winnie_pooh_22
+    21300046: winnie_pooh_23
+    21300048: winnie_pooh_24
+    21300050: winnie_pooh_25
+    21300052: winnie_pooh_26
+    21300054: winnie_pooh_27
+    21300056: winnie_pooh_28
+    21300058: winnie_pooh_29
+    21300060: winnie_pooh_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: winnie_pooh_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2703
+        width: 304
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2703
+        width: 306
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_2
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 2703
+        width: 308
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_3
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2703
+        width: 309
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2322
+        width: 304
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2322
+        width: 306
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_6
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 2322
+        width: 308
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_7
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2322
+        width: 309
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1942
+        width: 304
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_9
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1942
+        width: 306
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_10
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1918
+        width: 312
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_11
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1927
+        width: 315
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1544
+        width: 315
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1544
+        width: 315
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1544
+        width: 315
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_15
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1544
+        width: 315
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1163
+        width: 315
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_17
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1163
+        width: 315
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_18
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1163
+        width: 315
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_19
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1163
+        width: 315
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 783
+        width: 315
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_21
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 783
+        width: 315
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_22
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 783
+        width: 315
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_23
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 783
+        width: 315
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 403
+        width: 315
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_25
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 403
+        width: 315
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_26
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 403
+        width: 315
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_27
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 403
+        width: 315
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 22
+        width: 315
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_29
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 22
+        width: 315
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winnie_pooh_30
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 22
+        width: 315
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
