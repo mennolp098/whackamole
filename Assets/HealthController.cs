@@ -21,10 +21,16 @@ public class HealthController : MonoBehaviour {
 	{
 		health += newHealthValue;
 		UpdateHealth ();
+		if(health <= 0)
+		{
+			Application.LoadLevel(0);
+		}
 	}
 	
 	void UpdateHealth ()
 	{
 		healthText.text = "Health: " + health;
 	}
+
+
 }
