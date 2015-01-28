@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: d2e795466ef6ba64f8f8d3339c98b012
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sanic_WAM_0
+    21300002: Sanic_WAM_1
+    21300004: Sanic_WAM_2
+    21300006: Sanic_WAM_3
+    21300008: Sanic_WAM_4
+    21300010: Sanic_WAM_5
+    21300012: Sanic_WAM_6
+    21300014: Sanic_WAM_7
+    21300016: Sanic_WAM_8
+    21300018: Sanic_WAM_9
+    21300020: Sanic_WAM_10
+    21300022: Sanic_WAM_11
+    21300024: Sanic_WAM_12
+    21300026: Sanic_WAM_13
+    21300028: Sanic_WAM_14
+    21300030: Sanic_WAM_15
+    21300032: Sanic_WAM_16
+    21300034: Sanic_WAM_17
+    21300036: Sanic_WAM_18
+    21300038: Sanic_WAM_19
+    21300040: Sanic_WAM_20
+    21300042: Sanic_WAM_21
+    21300044: Sanic_WAM_22
+    21300046: Sanic_WAM_23
+    21300048: Sanic_WAM_24
+    21300050: Sanic_WAM_25
+    21300052: Sanic_WAM_26
+    21300054: Sanic_WAM_27
+    21300056: Sanic_WAM_28
+    21300058: Sanic_WAM_29
+    21300060: Sanic_WAM_30
+    21300062: Sanic_WAM_31
+    21300064: Sanic_WAM_32
+    21300066: Sanic_WAM_33
+    21300068: Sanic_WAM_34
+    21300070: Sanic_WAM_35
+    21300072: Sanic_WAM_36
+    21300074: Sanic_WAM_37
+    21300076: Sanic_WAM_38
+    21300078: Sanic_WAM_39
+    21300080: Sanic_WAM_40
+    21300082: Sanic_WAM_41
+    21300084: Sanic_WAM_42
+    21300086: Sanic_WAM_43
+    21300088: Sanic_WAM_44
+    21300090: Sanic_WAM_45
+    21300092: Sanic_WAM_46
+    21300094: Sanic_WAM_47
+    21300096: Sanic_WAM_48
+    21300098: Sanic_WAM_49
+    21300100: Sanic_WAM_50
+    21300102: Sanic_WAM_51
+    21300104: Sanic_WAM_52
+    21300106: Sanic_WAM_53
+    21300108: Sanic_WAM_54
+    21300110: Sanic_WAM_55
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sanic_WAM_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2235
+        width: 362
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_1
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 2235
+        width: 366
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_2
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 2235
+        width: 363
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_3
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 2235
+        width: 367
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_4
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 2235
+        width: 363
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_5
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 2235
+        width: 367
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_6
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 2235
+        width: 363
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_7
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 2235
+        width: 363
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1869
+        width: 362
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_9
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1869
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_10
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1869
+        width: 363
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_11
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1869
+        width: 367
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_12
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1869
+        width: 363
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_13
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1869
+        width: 367
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_14
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1869
+        width: 363
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_15
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 1869
+        width: 363
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1502
+        width: 362
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_17
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1502
+        width: 366
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_18
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1502
+        width: 363
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_19
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1502
+        width: 367
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_20
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1502
+        width: 477
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_21
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 1502
+        width: 480
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_22
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 1502
+        width: 480
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_23
+      rect:
+        serializedVersion: 2
+        x: 3373
+        y: 1502
+        width: 480
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1136
+        width: 478
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_25
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1136
+        width: 480
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_26
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1139
+        width: 464
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_27
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1139
+        width: 461
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_28
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1139
+        width: 464
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_29
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 1139
+        width: 461
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_30
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 1139
+        width: 463
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_31
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 1139
+        width: 461
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 773
+        width: 465
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_33
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 773
+        width: 461
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_34
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 773
+        width: 464
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_35
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 773
+        width: 461
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_36
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 773
+        width: 464
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_37
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 773
+        width: 461
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_38
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 773
+        width: 464
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_39
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 773
+        width: 461
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 406
+        width: 465
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_41
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 406
+        width: 461
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_42
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 406
+        width: 464
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_43
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 406
+        width: 461
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_44
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 406
+        width: 464
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_45
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 406
+        width: 461
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_46
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 406
+        width: 465
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_47
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 406
+        width: 461
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 40
+        width: 465
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_49
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 40
+        width: 461
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_50
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 40
+        width: 464
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_51
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 40
+        width: 461
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_52
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 40
+        width: 465
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_53
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 40
+        width: 461
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_54
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 40
+        width: 465
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sanic_WAM_55
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 40
+        width: 461
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
