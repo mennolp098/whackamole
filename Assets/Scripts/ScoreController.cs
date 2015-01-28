@@ -20,11 +20,28 @@ public class ScoreController : MonoBehaviour {
 	public void AddScore (int newScoreValue)
 	{
 		score += newScoreValue;
+		if(score < 0)
+		{
+			score = 0;
+		}
 		UpdateScore ();
 	}
 	
 	void UpdateScore ()
 	{
-		scoreText.text = "Score: " + score;
+		string scoreString = score.ToString();
+		string newString = "";
+		for(int i = 0; i < scoreString.Length;i++)
+		{
+			if(scoreString[i] == '0')
+			{
+				newString += 'o';
+			}
+			else
+			{
+				newString += scoreString[i];
+			}
+		}
+		scoreText.text = "Score: " + newString;
 	}
 }
